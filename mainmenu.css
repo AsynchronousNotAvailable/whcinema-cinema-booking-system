@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./1tmp2.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.item{
+    
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    position: relative;
+    z-index: -1;
+    display: block; 
+    max-height: 320px;
+    line-height: 1;
+    margin: 0 auto;
+    width: auto;
+    
+}   
+
+.carousel{
+    position: relative;
+    z-index: -1;
+    margin: 0 15%;
+    height: 350px;
+}
+
+.carousel-inner{
+    height:350px;
+    width: 700px;
+}
+
+
+.flex-container{
+    padding: 8vw;
+    margin-top: -4vw;
+    margin-left: 5vw;
+    list-style: none;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+.flex-item{
+    height: 50%;
+}
+
+.flex-item img{
+    width: 12vw;
+    height: 17vw;
+
+}

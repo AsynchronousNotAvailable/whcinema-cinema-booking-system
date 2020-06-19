@@ -1,0 +1,130 @@
+body {
+  background-image: url(./1tmp2.png);
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
+  text-align: left;
+  background-size: cover;
+}
+
+.main {
+  box-shadow: 0px 11px 35px 2px rgba(240, 49, 90, 0.966);
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 400px;
+  margin: 3.5em auto;
+    margin-top: 5%;
+  border-radius: 1.5em;
+  
+}
+
+.Login{
+  padding-top: 40px;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+    
+}
+
+
+
+.username {
+color: rgb(216, 57, 84);
+border-radius: 15px;
+outline: none;
+background: rgba(187, 187, 187, 0.993);
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+font-family: 'Ubuntu', sans-serif;
+width: 76%;
+font-weight: 700;
+font-size: 15px;
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: left;
+margin-bottom: 35px;
+letter-spacing: 1px;
+padding: 10px 20px;
+opacity: 1;
+
+}
+
+form{
+  padding-top: 20px;
+}
+
+.password {
+width: 76%;
+color:black;
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background:  rgba(187, 187, 187, 0.993);
+padding: 10px 20px;
+border-radius: 15px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: left;
+margin-bottom: 27px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+
+.username:focus, .password:focus {
+  border: 2px solid rgba(0, 0, 0, 0.61) !important;
+  
+}
+
+.submit {
+  border-radius: 4.5em;
+  color: #fff;
+  background-color: rgb(190, 32, 26);
+  background-image: linear-gradient(to right, rgb(190, 32, 26), rgb(245, 82, 7));
+  opacity: 1;
+  border: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 35%;
+  font-size: 13px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.submit:hover{
+  background-color: #08aeea;
+  background-image: linear-gradient(180deg, #08AEEA 0%, #2AF598 100%);
+  opacity: 1;
+}
+
+.admin {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  padding-top: 15px;
+  cursor: pointer;
+  color: rgb(51, 30, 172);
+  opacity: 1;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+
+button {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: rgb(18, 30, 131);
+  text-decoration: none
+}
+
+@media (max-width: 600px) {
+  .main {
+      border-radius: 0px;
+}
+  
+  
+
+}

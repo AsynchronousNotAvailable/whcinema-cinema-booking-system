@@ -1,0 +1,79 @@
+body{
+    background-image: url(./1tmp2.png);   
+    background-size: cover;
+}
+
+.img-container{
+    width: 100%;
+    text-align: center;
+
+}
+
+.container-fluid img{
+  display: absolute;
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-left: 9vw;
+  width: 20%;
+  height: 25%;
+    margin-right: 40.5%;
+  
+}
+
+.container-fluid{
+    color: black;
+}
+
+h4{
+    font: 14px;
+    text-align: center;
+    color: black;
+    margin-left: -2%;
+}
+
+.date, .time{
+    border-radius: 1.5em;
+    background-color:dimgrey;
+    margin-top:3%;
+    margin-left:15%;
+    margin-right: 15%;
+    padding: 2%;
+    color: yellow;
+}
+
+.date input, #time{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -3%;
+    
+}
+
+.book-container{
+    text-align: center;
+    width: 100%;
+}
+
+.book button{   
+  border-radius: 4.5em;
+  color: #fff;
+  background-image:linear-gradient(to right, #72cf95,#1ce669);
+  opacity: .6;
+  border: 0;
+  margin-top: 2%;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  transition: .3s;  
+  
+}
+
+
+.book button:hover{
+  background-color: #08aeea;
+  opacity: 1;
+    
+}
